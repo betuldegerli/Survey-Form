@@ -1,0 +1,71 @@
+body{
+  background-image: url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-52716.jpg?w=1380&t=st=1676411738~exp=1676412338~hmac=4716bbdcf224157be2c6c2f897d36f840f20e1f175f6f7f62e563566aa0699ef);
+}
+form{
+  font-size:19px;
+  font-family:Lucida Sans;
+  color:#03035A;
+}
+label{
+  display:block;
+  margin: 15px 0 15px 15px;
+}
+h1, p, input[type="submit"]{
+  text-align:center;
+  color: #03035A;  
+}
+h1{
+  font-size:35px;
+}
+p{
+  font-size:18px;
+}
+
+input, textarea,select{
+  width:500px; 
+  height:30px;
+  margin: 5px 0 15px 5px;
+  border-radius:4px;
+  display:block;
+}
+input[type="checkbox"]{
+  width:auto; 
+  height:auto;
+  margin: 0 0 5px 0;
+  border-radius:4px;
+  display: inline-block;
+  
+}
+input[type="radio"]{
+  width:auto; 
+  height:15px;
+  margin: 5px 0 5px 5px;
+  display: inline-block;
+}
+input[type="submit"]{
+ width:400px; 
+  height:30px;
+  margin-top: 5px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:4px;
+  font-family:candara;
+}
+hr{
+  height: 2px;
+  background-color:#03035A;
+  border-color:#03035A;
+}
+input{
+  display:block;
+}
+.survey{
+  width:90%;
+  background-color:#CDE7E9;
+  opacity: 0.9;
+  margin:auto;
+}
+textarea{
+  width:500px; 
+  height:80px;
+}

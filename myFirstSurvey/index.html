@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>MyFirstSurvey</title>
+  </head>
+  <body>
+    <div>
+    <h1 id="title">My First Survey Form</h1>
+    <p id="description">Thank you for taking the time to help me improve myself</p>
+    <div class="survey">
+      <hr>
+      <form method="post" id="survey-form">
+      <div class="one">
+        <label id="name-label">Name <input id="name" type="text" name="name"placeholder="Enter your Name" required /></label>
+        <label id="email-label">Email <input id="email" type="email" name="email" placeholder="Enter your Email" required /></label>
+        <label id="number-label">Age(Optional) <input id="number" type="number" min="15" max="120" placeholder="Age" value="age" /></label>
+      </div>
+      <div class="gender">
+        <label>Gender</label>
+        <label><input type="radio" id="male" name="gender" value="male" />Male</label>
+        <label><input type="radio" id="female" name="gender" value="female"/>Female</label>
+      </div>
+      <div class="two">
+        <label>Education Degree 
+          <select id="dropdown" name="dropdown">
+            <option value="0">(select one)</option>
+            <option value="1">High School Graduate</option>
+            <option value="2">Associate Degree</option>
+            <option value="3">Bachelor’s Degree</option>
+            <option value="4">Master’s Degree</option>
+          </select>
+        </label>
+      </div>
+      <div class="three">
+        <label>Languages and Frameworks known</label>
+        <label>
+          <label for="java"><input id="java" name="java" value="java" type="checkbox" />Java</label>
+          <label for="c#"><input id="c#" name="c#" value="c#" type="checkbox" />C#</label>
+          <label for="react"><input id="react" name="react" value="react" type="checkbox" />React</label>
+          <label for="c++"><input id="c++" name="c++" value="c++" type="checkbox" />C++</label>
+          <label for="python"><input id="python" name="python" type="checkbox" value="pyhton" />Python</label>
+        </label>
+      </div>
+      <div class="four">
+        <label>Your Expectations from the Software Industry
+          <textarea id="expectation" name="expectation"  placeholder="My expectation is..."> 
+          </textarea>
+        </label>
+      </div>
+      <input type="submit" id="submit" name="submit" />
+    </form>
+    </div>
+    </div>
+  </body>
+</html>
